@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large model files
+*.h5
+*.hdf5
+model/*.h5
+model/*.hdf5
+
+# Dataset images / large data
+dataset/train/*
+dataset/valid/*
+dataset/test/*
+*.png
+*.jpg
+*.jpeg
+
+# Local secrets/config
+.env
+.streamlit/secrets.toml
+
+# OS / logs
+.DS_Store
+*.log
